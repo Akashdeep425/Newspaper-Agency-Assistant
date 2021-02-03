@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="700.0" minWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dashboard.dashboardControl">
+   <children>
+      <Label alignment="CENTER" layoutX="255.0" layoutY="26.0" prefHeight="41.0" prefWidth="190.0" text="Dashboard">
+         <font>
+            <Font name="MT Extra" size="26.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="22.0" layoutY="107.0" prefHeight="30.0" prefWidth="200.0" text="Paper Master">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="21.0" layoutY="150.0" onMouseClicked="#papers" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@newspaper.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="251.0" layoutY="107.0" prefHeight="30.0" prefWidth="200.0" text="Customer Manager">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="250.0" layoutY="150.0" onMouseClicked="#customers" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@customer.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="482.0" layoutY="107.0" prefHeight="30.0" prefWidth="200.0" text="Hawker">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="482.0" layoutY="150.0" onMouseClicked="#hawkers" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@hawkers.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="22.0" layoutY="397.0" prefHeight="30.0" prefWidth="200.0" text="Bill Generator">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="22.0" layoutY="441.0" onMouseClicked="#billGenerate" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bill.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="250.0" layoutY="397.0" prefHeight="30.0" prefWidth="200.0" text="All Customers">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="251.0" layoutY="441.0" onMouseClicked="#allCustomers" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@customerss.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="482.0" layoutY="397.0" prefHeight="30.0" prefWidth="200.0" text="Bill Collector">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="482.0" layoutY="441.0" onMouseClicked="#billCollect" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@money2.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

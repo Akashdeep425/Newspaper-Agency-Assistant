@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="700.0" minWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="showCustomer.CustViewControl">
+   <children>
+      <Label alignment="CENTER" layoutX="234.0" layoutY="31.0" prefHeight="39.0" prefWidth="233.0" text="Customer Display Board">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="95.0" prefHeight="30.0" prefWidth="75.0" text="Hawker">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboHawk" editable="true" layoutX="69.0" layoutY="134.0" prefHeight="31.0" prefWidth="185.0" />
+      <Button layoutX="276.0" layoutY="134.0" mnemonicParsing="false" onAction="#doHawker" prefHeight="31.0" prefWidth="69.0" text="Fetch" />
+      <Label layoutX="387.0" layoutY="95.0" prefHeight="30.0" prefWidth="75.0" text="Paper">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboPaper" editable="true" layoutX="387.0" layoutY="134.0" prefHeight="31.0" prefWidth="185.0" />
+      <Button layoutX="595.0" layoutY="134.0" mnemonicParsing="false" onAction="#doPaper" prefHeight="31.0" prefWidth="69.0" text="Fetch" />
+      <Button layoutX="311.0" layoutY="191.0" mnemonicParsing="false" onAction="#doShowAll" prefHeight="31.0" prefWidth="89.0" text="Show All">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <TableView fx:id="table" layoutX="40.0" layoutY="255.0" prefHeight="378.0" prefWidth="618.0" />
+      <Hyperlink alignment="CENTER" layoutX="195.0" layoutY="645.0" onAction="#doExport" prefHeight="29.0" prefWidth="300.0" text="Export to Excel">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>
