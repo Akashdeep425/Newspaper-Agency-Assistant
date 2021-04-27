@@ -7,10 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
-	<classpathentry kind="lib" path="G:/java-project/Newspaper-Agency-Assistant/xmlbeans-5.0.0/lib/xmlbeans-5.0.0.jar"/>
-	<classpathentry kind="lib" path="G:/java-project/Newspaper-Agency-Assistant/poi-4.1.2/poi-4.1.2.jar"/>
-	<classpathentry kind="lib" path="G:/java-project/Newspaper-Agency-Assistant/poi-4.1.2/poi-ooxml-4.1.2.jar"/>
-	<classpathentry kind="lib" path="G:/java-project/Newspaper-Agency-Assistant/poi-4.1.2/poi-ooxml-schemas-4.1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Allied/Dropbox/online-java-2/mysql-connector-java-5.1.6-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
